@@ -1,0 +1,31 @@
+python3 -V
+sudo apt install python3-pip
+pip3 -V
+sudo apt install python3-django
+django-admin --version
+pip install Django==4.0.3
+sudo apt-get install mysql-server
+mysql -V
+sudo apt-get install virtualenv
+virtualenv --version
+virtualenv --python=python3 ve_test
+cd ve_test/bin/
+source activate or deactivate
+
+sudo snap install pycharm-community --classic
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Root@123';
+ sudo fuser -k 8000/tcp
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ jarathod@bestpeers.com
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <center> <br>
+        <!-- <fieldset > -->
+        <div style="background-color:rgb(209, 220, 224); width: 450px; border:solid;border-color:rgb(87, 87, 165);">
+            <br>
+
+            <h1>Signup Here! </h1>
+            <hr>
+
+            <form method="POST" action="" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                {{form.email.label}}
+                {{form.email}} <br><br>
+
+                {{form.password.label}}
+                {{form.password}} <br><br>
+
+                {{form.firstname.label}}
+                {{form.firstname}} <br><br>
+
+                {{form.lastname.label}}
+                {{form.lastname}} <br><br>
+
+                {{form.mobile.label}}
+                {{form.mobile}} <br><br>
+
+                {{form.married.label}}
+                {{form.married}} <br><br>
+
+                {{form.unmarried.label}}
+                {{form.unmarried}} <br><br>
+
+                {{form.gender.label}}
+                {{form.gender}} <br><br>
+
+                {{form.game.label}}
+                {{form.game}} <br><br>
+
+                {{form.file.label}}
+                {{form.file}} <br><br>
+
+                {{form.image.label}}
+                {{form.image}} <br><br>
+
+
+                <input type="submit" value="submit"> <br><br>
+    </center>
+    </form>
+    <!-- </fieldset> -->
+    </div>
+</body>
+
+</html>

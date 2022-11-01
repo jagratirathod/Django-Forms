@@ -1,0 +1,26 @@
+<html>
+
+<head>
+
+    <title>login page</title>
+</head>
+
+<body>
+    
+    <form method="POST" action="/login/">
+        {% csrf_token %}
+        <center>  <br>
+            <font color="orange">{{ output }}</font>   <br>
+            <h1>Login Here !</h1> <br>
+            {{form.email.label}}
+            {{form.email}} <br><br>
+
+            {{form.password.label}}
+            {{form.password}} <br><br>
+
+            <input type="submit" value="Login">
+        </center>
+    </form>
+</body>
+
+</html>
